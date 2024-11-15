@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-railway",
+  "version": "1.0.0",
+  "description": "Project API Nodejs - MySQL2",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Luis A. Guisado - Pusho.Dev_Tech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
